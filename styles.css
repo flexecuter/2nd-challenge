@@ -38,10 +38,10 @@ p {
   border-radius: 15px;
   border: 1px solid black;
 }
-.p1 {
+/*.p1 {
   font-family: myFirstFont;
   src: url(Figtree-VariableFont_wght.ttf);
-}
+}*/
 .p2 {
   font-weight: bolder;
   font-size: 12px;
