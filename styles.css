@@ -14,7 +14,6 @@ body {
 }
 img {
   max-width: 100%;
-  /*height: auto;*/
   display: block;
   border-radius: 15px;
 }
@@ -68,8 +67,6 @@ p {
 }
 .profil-pic {
   height: 30px;
-  /*display: inline-block;*/
-  /*vertical-align: middle;*/
 }
 .profil-text {
   font-size: 10px;
