@@ -27,7 +27,8 @@ p {
   border-radius: 5px;
   border: none;
   outline: none;
-  margin-right: 265px;
+  display: flex;
+  /*justify-content: flex-start;*/
   margin-top: 20px;
   padding: 5px 10px;
 }
@@ -48,6 +49,19 @@ p {
 }
 .published {
   font-size: 12px;
-  margin-right: 205px;
+  text-align: left;
   font-weight: bold;
+}
+.hmtl-css {
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: left;
+}
+.these-found {
+  font-size: 12px;
+  font-weight: 100;
+}
+.profil-pic {
+height: 30px;
+
 }
