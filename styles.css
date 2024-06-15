@@ -30,7 +30,12 @@ p {
   display: flex;
   margin-top: 20px;
   padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
 }
+.button-learning:hover {
+  background-color: orange;
+}  
 .padding {
   box-shadow: 7px 7px black;
   background-color: #ffffff;
