@@ -10,10 +10,11 @@ body {
 .container {
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
 }
 img {
   max-width: 100%;
-  height: auto;
+  /*height: auto;*/
   display: block;
   border-radius: 15px;
 }
@@ -28,24 +29,19 @@ p {
   border: none;
   outline: none;
   display: flex;
-  /*justify-content: flex-start;*/
   margin-top: 20px;
   padding: 5px 10px;
 }
 .padding {
-  box-shadow: 8px 8px black;
+  box-shadow: 7px 7px black;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 15px;
   border: 1px solid black;
 }
-/*.p1 {
-  font-family: myFirstFont;
-  src: url(Figtree-VariableFont_wght.ttf);
-}*/
 .p2 {
-  font-weight: bolder;
-  font-size: 12px;
+  font-weight: 900;
+  font-size: 11px;
 }
 .published {
   font-size: 12px;
@@ -54,14 +50,29 @@ p {
 }
 .hmtl-css {
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: 800;
   text-align: left;
 }
 .these-found {
-  font-size: 12px;
-  font-weight: 100;
+  font-size: 14px;
+  font-weight: 500;
+  color: darkgray;
+  word-break: keep-all;
+  text-align: left;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 20px;
 }
 .profil-pic {
-height: 30px;
-
+  height: 30px;
+  /*display: inline-block;*/
+  /*vertical-align: middle;*/
+}
+.profil-text {
+  font-size: 10px;
+  font-weight: 800;
+  margin-left: 5px;
 }
