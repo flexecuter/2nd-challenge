@@ -48,15 +48,16 @@ p {
   text-align: left;
   font-weight: bold;
 }
-.hmtl-css {
+.html-css {
   font-size: 18px;
   font-weight: 800;
   text-align: left;
   cursor: pointer;
-  transition: color 0.3s;
+  transition: color .5s, ease-in-out;
 }
 .html-css:hover {
   color: orange;
+  
 }  
 .these-found {
   font-size: 14px;
